@@ -1,0 +1,2 @@
+* A simple chronjob run once daily adding today's date to this
+README.md file
