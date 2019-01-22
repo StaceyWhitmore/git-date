@@ -8,7 +8,7 @@ echo 'switch to dev directory'
 
 # concatenate today's date to the End of date.md  file
 echo "* today's date is `date`" >> date.md
-
+env > cron_env_vars.sh
 ## then replace yesterday's README.md with the text from read.txt and me.txt ...
 cat read.txt me.txt  > README.md
 

@@ -1,0 +1,9 @@
+SHELL=/bin/sh
+PATH=/usr/bin:/bin
+PWD=/home/pi/bin/git-date
+LANG=en_US.UTF-8
+SHLVL=1
+HOME=/home/pi
+LOGNAME=pi
+_=/usr/bin/env
+OLDPWD=/home/pi/bin/git-date
