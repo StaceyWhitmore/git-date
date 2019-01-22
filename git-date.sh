@@ -16,6 +16,8 @@ cat read.txt me.txt  > README.md
 echo "* today's date is `date`" >> README.md
 
 # Then commit changes to github by running the following sequence of commands
-git add . && git commit -m "add date" && git push -u origin master
+git add . && echo "git add ." >> LOG.md 
+git commit -m "add date" && echo "commit" >> LOG.md
+git push -u origin master && echo "push >> LOG.md
 
 echo "End of script"
