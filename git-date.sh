@@ -4,7 +4,7 @@ echo "Today's date is "
 date
 echo
 echo 'switch to dev directory'
- cd ~/bin/git-date # replace this path with the path to the your README.md file
+# cd ~/yourBin/git-date # replace this path with the path to the your README.md file
 
 # concatenate today's date to the End of date.md  file
 echo "* today's date is `date`" >> date.md
