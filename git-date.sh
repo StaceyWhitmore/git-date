@@ -4,11 +4,11 @@ echo "Today's date is "
 date
 echo
 echo 'switch to dev directory'
- cd ~/bin/git-date # replace this path with the path to the your README.md file
+ cd ~/DEV_Local/scripts/git-date # replace this path with the path to the your README.md file
 
 # concatenate today's date to the End of date.md  file
 echo "* today's date is `date`" >> date.md
-env > cron_env_vars.sh
+#env > cron_env_vars.sh
 ## then replace yesterday's README.md with the text from read.txt and me.txt ...
 cat read.txt me.txt  > README.md
 
@@ -16,8 +16,33 @@ cat read.txt me.txt  > README.md
 echo "* today's date is `date`" >> README.md
 
 # Then commit changes to github by running the following sequence of commands
-git add . && echo "git add ." >> LOG.md 
-git commit -m "add date" && echo "commit" >> LOG.md
-git push -u origin master && echo "push" >> LOG.md
+git add . && echo "git add ."
+git commit -m "add date" && echo "commit"
+git push -u origin master && echo "push"
+
+#For MiniBrowser
+cd /Users/admin/DEV_Local/JAVA_Projects/MiniBrowser
+echo "* -- `date`" >> fech.md
+echo "* -- `date`" >> ./data/fech.md
+git add . && echo "git add ."
+git commit -m "stamp" && echo "commit"
+git push -u origin master && echo "push"
+
+#for githubViewer
+cd /Users/admin/DEV_Local/JAVASCRIPT/AngularJS_Projects/gitHubViewer
+cat read.txt me.txt  > README.md
+
+echo "* -- `date`" >> fech.md
+git add . && echo "git add ."
+git commit -m "stamp" && echo "commit"
+git push -u origin master && echo "push"
+
+#for color-organizer app
+cd /Users/admin/DEV_Local/ReactApps/color-organizer
+echo "* -- `date`" >> ./data/fech.md
+echo "* -- `date`" >> ./data/fech/fech.md
+git add . && echo "git add ."
+git commit -m "stamp" && echo "commit"
+git push -u origin master && echo "push"
 
 echo "End of script"
