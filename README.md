@@ -1,4 +1,4 @@
 A simple cron job that adds daily timestamps to markdown file
 ============================================================
 ## A chronjob run once daily adding today's date to this README.md file
-* today's date is Tue Dec 10 21:28:20 MST 2019
+* today's date is Tue Dec 10 21:58:49 MST 2019
