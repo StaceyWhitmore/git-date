@@ -19,7 +19,7 @@ echo "* today's date is `date`" >> README.md
 # Then commit changes to github by running the following sequence of commands
 git add . && echo "git add ."
 git commit -m "add date" && echo "git commit-ed"
-git push -u origin master && echo "ah push it"
+git push -u origin master && echo "'ah push it' -Salt N Peppa"
 
 #For MiniBrowser
 cd /Users/admin/DEV_Local/JAVA_Projects/MiniBrowser
