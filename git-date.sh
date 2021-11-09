@@ -46,4 +46,12 @@ git add . && echo "git add ."
 git commit -m "stamp" && echo "commit"
 git push -u origin master && echo "push"
 
+#For privRep
+# cd /Users/admin/DEV_Local/JAVASCRIPT/GitDate
+# echo "* -- `date`" >> fech.md
+# echo "* -- `date`" >> ./data/fech.md
+# git add . && echo "git add ."
+# git commit -m "stamp" && echo "commit"
+# git push -u origin master && echo "push"
+
 echo "End of script"
