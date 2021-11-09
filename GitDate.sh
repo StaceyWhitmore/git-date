@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# GitDate.sh
 echo "Today's date is "
 date
 echo
@@ -32,5 +33,6 @@ git commit -m "stamp" && echo "commit"
 git push -u origin master && echo "push"
 
 echo "End of script"
+
 
 
