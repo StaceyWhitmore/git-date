@@ -21,30 +21,16 @@ git add . && echo "git add ."
 git commit -m "add date" && echo "git commit-ed"
 git push -u origin master && echo "'ah push it' -Salt N Peppa"
 
-#For MiniBrowser
-cd /Users/admin/DEV_Local/JAVA_Projects/MiniBrowser
+
+
+#For GitDate
+cd /Users/admin/DEV_Local/JAVASCRIPT/GitDate
 echo "* -- `date`" >> fech.md
 echo "* -- `date`" >> ./data/fech.md
 git add . && echo "git add ."
 git commit -m "stamp" && echo "commit"
 git push -u origin master && echo "push"
-
-#for githubViewer
-cd /Users/admin/DEV_Local/JAVASCRIPT/AngularJS_Projects/gitHubViewer
-cat read.txt me.txt  > README.md
-
-echo "* -- `date`" >> fech.md
-git add . && echo "git add ."
-git commit -m "stamp" && echo "commit"
-git push -u origin master && echo "push"
-
-#for color-organizer app
-cd /Users/admin/DEV_Local/ReactApps/color-organizer
-echo "* -- `date`" >> ./data/fech.md
-echo "* -- `date`" >> ./data/fech/fech.md
-git add . && echo "git add ."
-git commit -m "stamp" && echo "commit"
-git push -u origin master && echo "push"
-
 
 echo "End of script"
+
+
