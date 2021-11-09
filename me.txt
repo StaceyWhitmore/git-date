@@ -1,1 +1,1 @@
-## A chronjob run once daily adding today's date to this README.md file
+## A chronjob run periodically adding today's date to this README.md file
