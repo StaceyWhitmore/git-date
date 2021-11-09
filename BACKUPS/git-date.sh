@@ -46,6 +46,5 @@ git add . && echo "git add ."
 git commit -m "stamp" && echo "commit"
 git push -u origin master && echo "push"
 
-######END
 
 echo "End of script"
